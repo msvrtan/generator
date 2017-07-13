@@ -23,7 +23,7 @@ class Paths
         }
 
         if ($data['phpunit']['enabled'] === true) {
-            $this->processPhpUnit($data['phpspec']);
+            $this->processPhpUnit($data['phpunit']);
         }
 
         $this->processCode($data['code']);
