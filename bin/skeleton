@@ -32,5 +32,7 @@ $application->add(new \NullDev\Skeleton\Command\BroadwayElasticSearchReadCliComm
 $application->add(new \NullDev\Skeleton\Command\BroadwayEventCliCommand());
 $application->add(new \NullDev\Skeleton\Command\BroadwayModelCliCommand());
 $application->add(new \NullDev\Skeleton\Command\UuidIdentityCommand());
+$application->add(new \NullDev\Skeleton\Command\MiroCommand());
+$application->add(new \NullDev\Skeleton\Command\AddBoundaryCommand());
 
 $application->run();
